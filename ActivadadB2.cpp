@@ -31,7 +31,21 @@ for (c=0;c<10;c++){
 }
 cout<<endl<<endl;
 
+//LLENAR LA MATRIZ DIVISION CON LA DIVISION DE CADA UNO DE LOS ELEMENTOS DE LA MATRIZ1 Y LA MATRIZ2// 
+cout << "\ || --DIVISION DE MATRICES 1 Y 2-- ||" << endl ;
+
+for( c=0: c<10; c++)
+{
+	división [c] = matriz1 [c] / matriz2 [c];
+}
+for(c=0;c<10;c++)
+{
+	cout<< división [c] << "";
+	cout<< endl ;
+}
+cout<< endl << endl ;
 
 return 0;
+
 
 }
