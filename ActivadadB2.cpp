@@ -31,6 +31,20 @@ for (c=0;c<10;c++){
 }
 cout<<endl<<endl;
 
+//MODIFICACION HECHA POR FERNANDO LÓPEZ//RESTA DE MATRICES //
+
+// LLENAR LA MATRIZ RESTA CON LA RESTA DE CADA UNO DE LOS ELEMENTOS DE LA MATRIZ 1 Y LA MATRIZ 2//
+
+cout<<"\RESTA DE MATRICES"<<endl;
+
+for (c=0;c<10;c++){
+	resta[c]=matriz1[c]-matriz2[c];
+}
+for (c=0;c<10;c++){
+	cout<<resta[c]<<" ";
+	cout<<endl;
+}
+cout<<endl<<endl;
 
 return 0;
 
