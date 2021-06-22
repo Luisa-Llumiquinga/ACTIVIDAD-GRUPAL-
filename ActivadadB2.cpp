@@ -45,7 +45,19 @@ for (c=0;c<10;c++){
 	cout<<endl;
 }
 cout<<endl<<endl;
+	
+//MODIFICACION HECHA POR SHADEN BRAVO//DIVISION DE MATRICES //
+//LLENAR LA MATRIZ DIVISIÓN CON LA DIVISIÓN DE CADA ELEMENTO DE LA MATRIZ1  CON LA MATRIZ2//
 
+cout<<"\DIVISION DE MATRICES"<<endl;
+
+for (c=0;c<10;c++){
+	division[c]=matriz1[c]/matriz2[c];
+}
+for (c=0;c<10;c++){
+	cout<<division[c]<<" ";
+	cout<<endl;
+}
 return 0;
 
 }
