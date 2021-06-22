@@ -46,6 +46,21 @@ for (c=0;c<10;c++){
 }
 cout<<endl<<endl;
 	
+//MODIFICACION REALIZADA POR ACOSTA DAYANA// MULTIPLICACION DE MATRICES//
+//LLENAR LA MATRIZ PRODUCTO CON LA MULTIPLICACION DE CADA UNO DE LOS ELEMENTOS DE LA MTRIZ1 Y LA MATRIZ2//
+
+cout<<"\MULTIPLICACION DE MATRICES"<<endl;
+
+for (c=0;c<10;c++){
+	producto[c]=matriz1[c]*matriz2[c];
+}
+for (c=0;c<10;c++){
+	cout<<producto[c]<<" ";
+	cout<<endl;
+}
+cout<<endl<<endl;
+	
+	
 //MODIFICACION HECHA POR SHADEN BRAVO//DIVISION DE MATRICES //
 //LLENAR LA MATRIZ DIVISIÓN CON LA DIVISIÓN DE CADA ELEMENTO DE LA MATRIZ1  CON LA MATRIZ2//
 
@@ -61,17 +76,3 @@ for (c=0;c<10;c++){
 return 0;
 
 }
-
-//MODIFICACION REALIZADA POR ACOSTA DAYANA// MULTIPLICACION DE MATRICES//
-//LLENAR LA MATRIZ PRODUCTO CON LA MULTIPLICACION DE CADA UNO DE LOS ELEMENTOS DE LA MTRIZ1 Y LA MATRIZ2//
-
-cout<<"\MULTIPLICACION DE MATRICES"<<endl;
-
-for (c=0;c<10;c++){
-	producto[c]=matriz1[c]*matriz2[c];
-}
-for (c=0;c<10;c++){
-	cout<<producto[c]<<" ";
-	cout<<endl;
-}
-cout<<endl<<endl;
